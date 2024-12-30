@@ -1,5 +1,5 @@
 
-# Joke_cli
+# Jokecli
 
 A CLI program that uses the [JokeAPI](https://jokeapi.dev/) to give you the joke that you need
 
@@ -9,13 +9,13 @@ A CLI program that uses the [JokeAPI](https://jokeapi.dev/) to give you the joke
 * Install my-project with cargo
 
 ```bash
-  cargo install joke_cli
+  cargo install jokecli
 ```
 
 * Compile it yourself
 ```bash
-git clone https://github.com/quotequack/joke_cli
-cd joke_cli
+git clone https://github.com/quotequack/jokecli
+cd jokecli
 cargo build  --release
 ```
 Binary or exe will be under joke_cli/target/releases
@@ -23,7 +23,7 @@ Binary or exe will be under joke_cli/target/releases
 
 ```bash
 USAGE:
-    joker <DELAY> <CATEGORY>
+    jokecli <DELAY> <CATEGORY>
 
 ARGS:
     <DELAY>       Enter a delay between command and print joke
@@ -41,11 +41,11 @@ Select between Programming Dark Pun and Misc (use the category name *not* the nu
 ## Examples
 #### For a dark joke with a reasonable delay
 ```bash
-joker 5 dark
+jokecli 5 dark
 ```
 #### For a pun with short delay
 ```bash
-joker 2 pun
+jokecli 2 pun
 ```
 
 
