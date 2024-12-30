@@ -1,5 +1,5 @@
 [package]
-name = "joker"
+name = "joke_cli"
 version = "0.1.0"
 license = "MIT"
 description = "A program that handles and types for you the joker API and its joke (Terminal app)"
