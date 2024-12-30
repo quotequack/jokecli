@@ -1,5 +1,9 @@
 mod args;
 
+extern crate enigo;
+extern crate jokeapi_rs;
+extern crate clap;
+
 use std::thread;
 use std::time::Duration;
 use jokeapi_rs::Joke;
