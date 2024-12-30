@@ -1,0 +1,10 @@
+[package]
+name = "joker"
+version = "0.1.0"
+license = "MIT"
+description = "A program that handles and types for you the joker API and its joke (Terminal app)"
+
+[dependencies]
+jokeapi_rs = "0.1.4"
+clap = { version = "3", features = ["derive"] }
+enigo = "0.2.1"
